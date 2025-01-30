@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightgreen;
+}
+#menu{
+    background:linear-gradient(rgb(8, 199, 8),#058005,rgb(3, 101, 3));
+    color: white;
+    width: 100%;
+    margin: auto;
+    
+}
+#menu > h1{
+    text-align: center;
+    
+}
+#menu > p{
+    text-align: center;
+    padding: 50px;
+    
+}
+nav{
+    padding-left: 20px;
+    
+}
+nav a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+    border-radius: 10px 10px 0 0 ;
+
+    
+}
+nav a:hover{
+    background-color: lightgreen;
+}
+main{
+    max-width: 850px;
+    min-width: 320px;
+    margin: auto;
+    background-color: white;
+}
+#fundo{
+    width: 100%;
+}
+
+.titulo{
+    color:#058005;
+    margin: auto 25px auto;
+    padding: 20px;
+}
+h2{
+    margin:15px auto 25px auto;
+    color: #058005;
+    background:linear-gradient(to right,#90ee9081,#90ee9051,#90ee9000);
+    margin: 20px 0px 20px 20px;
+}
+p{
+    text-align: justify;
+    text-indent:20px;
+    padding: 20px;
+    
+    
+}
+.destaque{
+    color: #058005;
+}
+article{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#video{
+    display: flex;
+    justify-content: center;
+    background-color:#058005;
+   
+    
+}
+.videoyoutube{
+    padding: 20px 40px;
+    width: 90%;
+    
+    
+}
+p > a{
+    text-decoration: none;
+    color: #079107b1;
+}
+#cartaz{
+  height: 500px;
+}
+#cartaz aside{
+    height: 80%;
+    width: 80%;
+    background-color: lightgreen;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+h3{
+    background-color: #058028;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+}
+ul{
+    columns: 2;
+    text-align: center;
+}
+ul li{
+    list-style-position: inside;
+    color: #058005;
+    margin-left: 10px;
+}
+strong{
+    color: #058005;
+    font-weight: bold;
+}
+aside > p{
+    padding: 15px 5px 5px 10px;
+}
+footer{
+    background-color: #034b03;
+    color: white;
+}
+footer p{
+    text-align:center ;
+}
+@media (max-width: 700px){
+    .imgandroid{
+        content: url('imagens/dan-droids-pq.png');
+    }
+    .imgmulher{
+        content: url('imagens/irina-blok-pq.jpg');
+    }
+
+    }
