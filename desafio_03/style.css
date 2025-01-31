@@ -63,11 +63,26 @@ section.normal{
 
 section.imagem{
     background-color: rgba(100, 94, 94, 0.591);
-    color: white
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.436);
+    background-size: cover;
 }
 
 section.imagem > p{
     display: inline-block;
     background-color: rgba(18, 1, 1, 0.187);
+    text-shadow: 2px 2px 10px black;
     padding: 10px;
+}
+section.imagem#img01{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section.imagem#img02{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
 }
